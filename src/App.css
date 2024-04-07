@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.spring-sale{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.spring-sale__wrapper{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.spring-sale__title{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.spring-sale__title::before{
+    content: '';
+    height: 25px;
+    background-color: #ea4343;
+    width: 400px;
+    margin-top: -30px;
+    z-index: -1;
+}
+
+.spring-sale__cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+    gap: 100px 50px;
+    justify-content: center;
+}
+
+.spring-sale__card{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+}
+
+.card__shock{
+    background-color: #deb887;
+    width: 70%;
+    font-size: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card__shock > strong{
+    font-size: 14px;
+}
+
+.card__title{
+    font-size: 17px;
+    max-width: 257px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.card{
+    text-decoration: none;
+    color: #000;
+}
+
+.card__description{
+    max-width: 257px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.cards__stars{
+    display: flex;
+    gap: 5px;
+}
+
+.spring-sale__card-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spring-sale__card-top > img{
+    width: 257px;
+    height: 328px;
+}
+
+.spring-sale__card-price{
+    display: flex;
+    gap: 10px;
+}
+
+.card__price{
+    text-decoration: line-through;
+}
+
+.spring-sale__card-btn{
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #a79d9da0;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.spring-sale__card-btn:hover{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.card__heart{
+    font-size: 27px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 350px;
+    cursor: pointer;
+    z-index: 3;
+}

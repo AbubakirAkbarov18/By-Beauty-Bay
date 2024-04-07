@@ -1,0 +1,266 @@
+.flying{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flying__wrapper{
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 80px;
+}
+
+.flying__title{
+    text-align: center;
+    font-style: italic;
+    font-size: 34px;
+}
+
+.flying__cards{
+    display: flex;
+    max-width: 1265px;
+    overflow: hidden;
+    overflow-x: auto;
+    gap: 35px;
+    padding-bottom: 30px;
+}
+
+::-webkit-scrollbar{
+    height: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000;
+}
+
+.flying__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flying__card > img{
+    width: 290px;
+    height: 348px;  
+}
+
+.flying__card-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flying__card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    max-width: 290px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.flying__card-paragraph{
+    max-width: 290px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.flying__card-actions{
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.flying__card-actions-btn-heart{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.flying__card-actions-btn-cart{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.flying__card-stars{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flying__card-star{
+    font-size: 20px;
+}
+
+/* FLYING VIEW */
+
+.FlyingView{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flying-view__wrapper{
+    padding: 0px 80px;
+    padding-top: 40px;
+}
+
+.flying-view__top{
+    display: flex;
+    gap: 140px;
+}
+
+.flying-view__left-side > img{
+    width: 693px;
+    height: 831px;
+}
+
+.flying-view__right-side-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flying-view__right-side-title{
+    font-size: 25px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flying-view__right-side-title::before{
+    content: '';
+    height: 10px;
+    background-color: #73c974;
+    width: 433px;
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.flying-view__right-side-text{
+    max-width: 552px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.flying-view__right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.flying-view__right-side-price{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.offer{
+    background-color: red;
+    color: #fff;
+    width: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.offer__text{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: oblique;
+    letter-spacing: 4px;
+}
+
+.flying-view__right-side-offers-single{
+    display: flex;
+    max-width: 572px;
+    gap: 25px;
+}
+
+.flying-view__right-side-offers-single-second{
+    display: flex;
+    width: 752px;
+    gap: 25px;
+}
+
+.offer__link{
+    color: red;
+}
+
+.flying-view__right-side-offers-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flying-view__right-side-free-delivery{
+    width: 552px;
+    background-color: #f7edff;
+    padding: 34px 24px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.flying-view__right-side-free-delivery-icon{
+    font-size: 30px;
+}
+
+.flying-view__right-side-actions{
+    width: 552px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flying-view__right-side-actions-cart{
+    width: 464px;
+    height: 62px;
+    border: 2px solid #66ff96;
+    background-color: #66ff96;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.flying-view__right-side-actions-cart:hover{
+    border: 2px solid #000; 
+    transition: 0.7s;
+}
+
+.flying-view__right-side-actions-heart{
+    width: 72px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #d8d8d8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.flying-view__right-side-actions-heart:hover{
+    border: 1px solid #000;
+    font-size: 30px;
+}

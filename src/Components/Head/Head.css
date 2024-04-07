@@ -1,0 +1,48 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.head__black {
+    background-color: #000;
+    padding: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.head__white {
+    background-color: #e6e6e6;
+    color: #000;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.head__white-text-left {
+    padding: 0 0.6rem;
+    border-right: 1px solid #808080;
+}
+
+.head__white-text {
+    padding: 0 0.6rem;
+}
+
+.head__white-text-right {
+    padding: 0 0.6rem;
+    border-left: 1px solid #808080;
+}
+
+.head__language {
+    position: absolute;
+    margin-left: 1465px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}

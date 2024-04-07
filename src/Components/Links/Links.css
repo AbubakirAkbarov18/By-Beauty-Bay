@@ -1,0 +1,41 @@
+.links__wrapper{
+    width: 1928px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+}
+
+.links__list{
+    display: flex;
+    justify-content: center;
+}
+
+.links__list{
+    list-style: none;
+}
+
+.links__link{
+    text-decoration: none;
+    color: #000;
+    padding: 0 19px;
+}
+
+.links__link:hover{
+    text-decoration: 2px underline;
+    text-underline-offset: 3px;
+}
+
+.links__link-blue{
+    text-decoration: none;
+    color: #6d00f6;
+    font-weight: 700;
+}
+
+.links__link-blue:hover{
+    text-decoration: 2px underline;
+    text-underline-offset: 3px;
+}
+
+.active{
+    text-decoration: 2px underline;
+    text-underline-offset: 3px;
+}
